@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(150deg, #2673e6, #073780);
+    height: 100vh;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box{
+    position: absolute;
+    background-color: #2e2e2eda;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+button{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    border: none;
+    background-color: #636363;
+    color: white;
+}
+
+.equal{
+    background-color: #ff6600;
+    height: 102px;
+}
+
+.zero{
+    width: 102px;
+}
+
+button:hover{
+     background-color:#4e4d4d ;
+}
+
+.tela{
+    background-color: white;
+    height: 30px;
+    color: black;
+    font-size: 25px;
+    text-align: end;
+    margin: 3px;
+}
+
+.logo{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
